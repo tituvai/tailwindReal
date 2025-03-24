@@ -562,6 +562,9 @@
   .min-h-screen {
     min-height: 100vh;
   }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
+  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
@@ -1296,14 +1299,62 @@
     --tw-gradient-position: in oklab;
     background-image: radial-gradient(var(--tw-gradient-stops));
   }
-  .bg-\[url\(\/headerBg\.png\)\] {
-    background-image: url(/headerBg.png);
+  .bg-\[url\(\/\)\] {
+    background-image: url(/);
   }
   .bg-\[url\(\/leving\.png\)\] {
     background-image: url(/leving.png);
   }
   .bg-\[url\(\/phat\.png\)\] {
     background-image: url(/phat.png);
+  }
+  .bg-\[url\(\/sr\)\] {
+    background-image: url(/sr);
+  }
+  .bg-\[url\(\/src\)\] {
+    background-image: url(/src);
+  }
+  .bg-\[url\(\/src\/\)\] {
+    background-image: url(/src/);
+  }
+  .bg-\[url\(\/src\/asset\)\] {
+    background-image: url(/src/asset);
+  }
+  .bg-\[url\(\/src\/asset\/\)\] {
+    background-image: url(/src/asset/);
+  }
+  .bg-\[url\(\/src\/asset\/headerBg\.png\)\] {
+    background-image: url(/src/asset/headerBg.png);
+  }
+  .bg-\[url\(\/src\/asset\/l\)\] {
+    background-image: url(/src/asset/l);
+  }
+  .bg-\[url\(\/src\/asset\/le\)\] {
+    background-image: url(/src/asset/le);
+  }
+  .bg-\[url\(\/src\/asset\/leve\)\] {
+    background-image: url(/src/asset/leve);
+  }
+  .bg-\[url\(\/src\/asset\/leveing\)\] {
+    background-image: url(/src/asset/leveing);
+  }
+  .bg-\[url\(\/src\/asset\/leveing\.png\)\] {
+    background-image: url(/src/asset/leveing.png);
+  }
+  .bg-\[url\(\/src\/asset\/leving\.png\)\] {
+    background-image: url(/src/asset/leving.png);
+  }
+  .bg-\[url\(\/src\/asset\/pha\)\] {
+    background-image: url(/src/asset/pha);
+  }
+  .bg-\[url\(\/src\/asset\/phat\)\] {
+    background-image: url(/src/asset/phat);
+  }
+  .bg-\[url\(\/src\/asset\/phat\.\)\] {
+    background-image: url(/src/asset/phat.);
+  }
+  .bg-\[url\(\/src\/asset\/phat\.png\)\] {
+    background-image: url(/src/asset/phat.png);
   }
   .bg-none {
     background-image: none;

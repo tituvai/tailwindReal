@@ -29,6 +29,24 @@
      --shadow-box: 0px 0px 7px 0px rgba(0,0,0,0.75);
 
      /* Box Shadow Part End  */
+
+
+
+       /* Stykey Header   */
+       .sticky_name{
+        background: teal;
+        animation: alamin 1s;
+        }
+        @keyframes alamin{
+        from{
+        top: -100px;
+        }
+        to{
+        top: 0;
+        }
+        }
+
+     /* hrader stickey */
   }
 
   

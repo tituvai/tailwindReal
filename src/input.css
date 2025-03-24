@@ -1,0 +1,34 @@
+
+@import "tailwindcss";
+
+
+@theme {
+
+    /* Conatiner Part Start  */
+
+    --spacing-headerCon: 1200px; 
+    /* Conatiner Part End  */
+
+    /* Background color Part Start  */
+
+    --color-headerC: #0A2C3D; 
+    --color-buttonC: #FF5A3C; 
+    --color-peraC: #5C727D; 
+    --color-htex: #133344; 
+
+    /* Background color Part End  */
+
+    /* Fonts Family Part Start  */
+    --font-nunito: "Nunito", "sans-serif"; 
+    --font-poppins: "Poppins", "sans-serif"; 
+
+     /* Fonts Family Part End  */
+
+     /* Box Shadow Part Start  */
+
+     --shadow-box: 0px 0px 7px 0px rgba(0,0,0,0.75);
+
+     /* Box Shadow Part End  */
+  }
+
+  
